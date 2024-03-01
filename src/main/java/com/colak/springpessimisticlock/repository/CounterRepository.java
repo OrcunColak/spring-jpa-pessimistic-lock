@@ -12,15 +12,15 @@ import java.util.Optional;
 @Repository
 public interface CounterRepository extends JpaRepository<Counter, Integer> {
 
-    @Query("select c from Counter c where c.id = :id")
     @Lock(LockModeType.PESSIMISTIC_READ)
+    @Query("select c from Counter c where c.id = :id")
     Optional<Counter> lockByIdForRead(Integer id);
 
-    @Query("select c from Counter c where c.id = :id ")
     @Lock(LockModeType.PESSIMISTIC_WRITE)
+    @Query("select c from Counter c where c.id = :id ")
     Optional<Counter> lockByIdForWrite(Integer id);
 
-    @Query("select c from Counter c where c.id = :id")
     @Lock(LockModeType.PESSIMISTIC_FORCE_INCREMENT)
+    @Query("select c from Counter c where c.id = :id")
     Optional<Counter> lockByIdForWriteForceVersionIncrement(Integer id);
 }
