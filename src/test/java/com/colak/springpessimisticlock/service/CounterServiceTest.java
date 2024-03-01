@@ -16,7 +16,7 @@ class CounterServiceTest {
     private CounterService counterService;
 
     @Autowired
-    CounterRepository counterRepository;
+    private CounterRepository counterRepository;
 
     @Test
     void testIncrementCounter() {
