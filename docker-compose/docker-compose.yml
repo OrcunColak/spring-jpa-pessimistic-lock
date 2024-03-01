@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+#  db:
+#    image: "mcr.microsoft.com/mssql/server"
+#    ports:
+#      - "1433:1433"
+#    environment:
+#      SA_PASSWORD: "password123!"
+#      ACCEPT_EULA: "Y"
+  postgresql:
+    image: postgres
+    container_name: postgresql1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: counter-db
+    ports:
+      - "5432:5432"
