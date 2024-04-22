@@ -6,3 +6,12 @@ CREATE TABLE  counter (
   version BIGINT NOT NULL,
   CONSTRAINT pk_counter primary key (id)
 );
+
+DROP TABLE IF EXISTS post;
+
+CREATE TABLE post (
+    id BIGINT PRIMARY KEY,
+    title VARCHAR(255),
+    body TEXT,
+    status VARCHAR(50)
+);
