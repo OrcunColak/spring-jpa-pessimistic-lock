@@ -1,7 +1,7 @@
-package com.colak.springpessimisticlock.service;
+package com.colak.springpessimisticlock.counter.service;
 
-import com.colak.springpessimisticlock.jpa.Counter;
-import com.colak.springpessimisticlock.repository.CounterRepository;
+import com.colak.springpessimisticlock.counter.repository.CounterRepository;
+import com.colak.springpessimisticlock.counter.jpa.Counter;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

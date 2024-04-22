@@ -1,4 +1,4 @@
-package com.colak.springpessimisticlock.jpa;
+package com.colak.springpessimisticlock.counter.jpa;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
