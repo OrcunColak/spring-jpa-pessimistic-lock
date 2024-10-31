@@ -1,6 +1,6 @@
-package com.colak.springpessimisticlock.post.service;
+package com.colak.springtutorial.post.service;
 
-import com.colak.springpessimisticlock.post.jpa.Post;
+import com.colak.springtutorial.post.jpa.Post;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

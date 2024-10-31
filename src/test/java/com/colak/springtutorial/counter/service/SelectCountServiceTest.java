@@ -1,6 +1,5 @@
-package com.colak.springpessimisticlock.counter.service;
+package com.colak.springtutorial.counter.service;
 
-import com.colak.springpessimisticlock.counter.service.SelectCountService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

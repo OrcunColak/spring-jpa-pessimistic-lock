@@ -1,6 +1,6 @@
-package com.colak.springpessimisticlock.counter.service;
+package com.colak.springtutorial.counter.service;
 
-import com.colak.springpessimisticlock.counter.repository.SelectCountRepository;
+import com.colak.springtutorial.counter.repository.SelectCountRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

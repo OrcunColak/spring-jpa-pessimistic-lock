@@ -1,6 +1,6 @@
-package com.colak.springpessimisticlock.counter.repository;
+package com.colak.springtutorial.counter.repository;
 
-import com.colak.springpessimisticlock.counter.jpa.Counter;
+import com.colak.springtutorial.counter.jpa.Counter;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;

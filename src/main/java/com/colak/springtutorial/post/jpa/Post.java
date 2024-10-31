@@ -1,4 +1,4 @@
-package com.colak.springpessimisticlock.post.jpa;
+package com.colak.springtutorial.post.jpa;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

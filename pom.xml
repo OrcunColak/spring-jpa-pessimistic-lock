@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.5</version>
+        <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.colak</groupId>
@@ -14,7 +14,7 @@
     <name>spring-jpa-pessimistic-lock</name>
     <description>Demo project for Spring Boot Pessimistic Lock</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>23</java.version>
         <mssql-jdbc.version>12.4.2.jre11</mssql-jdbc.version>
     </properties>
 

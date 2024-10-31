@@ -1,8 +1,7 @@
-package com.colak.springpessimisticlock.counter.service;
+package com.colak.springtutorial.counter.service;
 
-import com.colak.springpessimisticlock.counter.jpa.Counter;
-import com.colak.springpessimisticlock.counter.repository.CounterRepository;
-import com.colak.springpessimisticlock.counter.service.CounterService;
+import com.colak.springtutorial.counter.jpa.Counter;
+import com.colak.springtutorial.counter.repository.CounterRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
